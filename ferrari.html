@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferrari</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-left">
+      <h3>Ferrari</h3>
+    </div>
+    <div class="navbar-right">
+      <button id="openModal" class="icon-button">☰</button>
+    </div>
+  </header>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close-button">&times;</span>
+      <h2>Interactúa con la imagen para ir a las diferentes páginas</h2>
+      <img src="imagenes/download (4).jpg" usemap="#image-map">
+
+      <map name="image-map">
+        <area target="" alt="Ferrari 296 gtb" title="Ferrari 296 gtb" href="ferrari.html" coords="9,59,96,118" shape="rect">
+        <area target="" alt="Mclaren 765LT" title="Mclaren 765LT" href="mclaren.html" coords="111,69,200,114" shape="rect">
+        <area target="" alt="Porsche GT2 RS" title="Porsche GT2 RS" href="porsche.html" coords="213,66,290,118" shape="rect">
+      </map>
+    </div>
+  </div>
+
+  <!-- Imagen principal -->
+  <div>
+    <img class="contenedor" src="imagenes/Ferrari Roma.gif" alt="">
+    <div class="centered">
+      <h1>LA 
+        DEFINICIÓN 
+        DEL 
+        PLACER 
+        AL 
+        VOLANTE
+        </h1>
+    </div>
+  </div>
+
+  <!-- Imagen con degradado y texto centrado -->
+  <section class="full-screen-section">
+    <div class="image-gradient">
+      <div class="center-text">
+        <h1>FERRARI 296 GTB</h1>
+        <p>El 296 GTB, la evolución del concepto de berlinetta deportiva biplaza con motor central-trasero de Ferrari, supone toda una revolución para la Casa de Maranello al incluir un nuevo motor V6 de 120º acoplado a un motor eléctrico enchufable o plug-in (PHEV) capaz de entregar hasta 830 CV. Este coche una vez más redefine la idea de diversión al volante para garantizar la máxima emoción, no solo cuando se buscan las máximas prestaciones, sino también en su uso diario
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Imagen con degradado y textos alineados -->
+  <section class="full-screen-section">
+    <div class="image-gradient reverse">
+      <div class="text-container">
+        <div class="text-left">
+          <h1>V6</h1>
+          <p>MOTOR</p>
+          <h1>221 CV/l</h1>
+          <p>POTENCIA ESPECIFICA</p>
+        </div>
+        <div class="text-right">
+          <h1>2.9 seg</h1>
+          <p>0-100 KM/H</p>
+          <h1>830 cv</h1>
+          <p>POTENCIA MAXIMA HIBRIDO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="icon-elem">
+        <a href="https://www.instagram.com/brailynmarte31_/?next=%2F" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://www.tiktok.com/@kyo_0l" class="icon"><ion-icon name="logo-tiktok"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://open.spotify.com/user/31stpuk3zj74i2go65g6qtc4e6ze" class="icon"><ion-icon name="musical-notes-outline"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://mail.google.com/mail/u/1/?pli=1#inbox" class="icon"><ion-icon name="mail-outline"></ion-icon></a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li class="menu-elem">
+        <a href="index.html" class="menu-icon">Inicio</a>
+        
+      </li>
+    </ul>
+    <p class="text">@2024 | Todos los derechos reservados</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

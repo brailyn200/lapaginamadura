@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mclaren</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <!-- Barra de Navegación -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <h3>Mclaren</h3>
+    </div>
+    <div class="navbar-right">
+      <button id="openModal" class="icon-button">☰</button>
+    </div>
+  </header>
+
+  
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close-button">&times;</span>
+      <h2>Interactúa con la imagen para ir a las diferentes páginas</h2>
+      <img src="imagenes/download (4).jpg" usemap="#image-map">
+      <map name="image-map">
+        <area target="" alt="Ferrari 296 gtb" title="Ferrari 296 gtb" href="ferrari.html" coords="9,59,96,118" shape="rect">
+        <area target="" alt="Mclaren 765LT" title="Mclaren 765LT" href="mclaren.html" coords="111,69,200,114" shape="rect">
+        <area target="" alt="Porsche GT2 RS" title="Porsche GT2 RS" href="porsche.html" coords="213,66,290,118" shape="0">
+      </map>
+    </div>
+  </div>
+
+  <!-- Imagen con textos -->
+  <div class="contenedor">
+    <div class="contenedor-texto">
+      <h1>EVOLUCION DESATADA</h1>
+      <h2>720s</h2>
+    </div>
+  </div>
+
+  <!-- Carrusel de Imágenes -->
+  <div class="carousel">
+    <button id="prevBtn" class="carousel-btn">&lt;</button>
+    <div class="carousel-images">
+      <img src="imagenes/A closer look at the stunning McLaren 720S (1).jpg" alt="Imagen 1" class="carousel-image active">
+      <img src="imagenes/2018 McLaren 720S.jpg" alt="Imagen 2" class="carousel-image">
+      <img src="imagenes/2021 McLaren 765LT - Interior.jpg" alt="Imagen 3" class="carousel-image">
+    </div>
+    <button id="nextBtn" class="carousel-btn">&gt;</button>
+  </div>
+  
+
+  <!-- Contenido principal -->
+  <div class="contenido">
+    <div class="contenido-izq">
+      <h2>Hermoso desde cada ángulo, pero siempre por un motivo.</h2>
+      <p>El McLaren 720S nació de la filosofía de diseño de McLaren: todo tiene su motivo. La potente simplicidad e integridad de esta filosofía desarrolla vehículos increíbles. Mediante un proceso intenso y revolucionario. La forma radical del 720S está inspirada en una lágrima. La perfecta forma aerodinámica de la naturaleza. Adopta esta forma porque ayuda a ofrecer un rendimiento superlativo y una eficacia aerodinámica. Cada detalle de diseño también es así. Creado para mejorar el rendimiento, optimizar la conducción, intensificar la interacción, aumentar la comodidad, con belleza.</p>
+    </div>
+    <div class="contenido-der">
+      <img src="imagenes/mclaren 720s backgrounds.jpg" alt="Imagen Grande">
+    </div>
+  </div>
+
+  <!-- Cuadros con información -->
+  <div class="cuadros">
+    <div class="cuadro">
+      <h3>341 km/h</h3>
+      <p>212 mph</p>
+      
+       <p>Velocidad punta<img src="imagenes/images.png" alt="Ícono"></p>
+    </div>
+    <div class="cuadro">
+      <h3>770 Nm</h3>
+      <p>568 lb-ft</p>
+      
+      <p>Par <img src="imagenes/images (1).png" alt="Ícono"></p>
+    </div>
+    <div class="cuadro">
+      <h3>720 PS</h3>
+      <p>710 bhp</p>
+      
+      <p>Potencia <img src="imagenes/download.png" alt="Ícono"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="icon-elem">
+        <a href="https://www.instagram.com/" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://www.tiktok.com/" class="icon"><ion-icon name="logo-tiktok"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://open.spotify.com/" class="icon"><ion-icon name="musical-notes-outline"></ion-icon></a>
+      </li>
+      <li class="icon-elem">
+        <a href="https://mail.google.com/" class="icon"><ion-icon name="mail-outline"></ion-icon></a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li class="menu-elem">
+        <a href="index.html" class="menu-icon">Inicio</a>
+        
+      </li>
+    </ul>
+    <p class="text">@2024 | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

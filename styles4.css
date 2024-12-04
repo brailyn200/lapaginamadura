@@ -1,0 +1,259 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left p {
+    margin: 0;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .icon-button:hover {
+    color: #00bcd4;
+  }
+  
+ /* Modal */
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+}
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .map-container {
+    margin-top: 20px;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .icon-button {
+      margin-top: 10px;
+    }
+  }
+
+  /* Imagen contenedor */
+.contenedor {
+    position: relative; /* Asegura que se mantenga en su contexto */
+    background-image: url(imagenes/Porsche\ 911\ gt2\ rs\ 2018\,\ Colorsponge\ Carlos.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 759px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 20px;
+    z-index: 1; /* Mantén este valor bajo */
+}
+
+/* General styles */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 900px;
+    gap: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 62.5px;
+    width: 45%;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .card-section {
+    margin-bottom: 10px;
+  }
+  
+  /* Text styles */
+  .card-title {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6); /* Leve transparencia */
+    margin: 0;
+  }
+  
+  /* Image styles */
+  .card-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  
+  .hero {
+    width: 100%; height: 550px; background-color: palevioletred;
+    background-image: url(imagenes/7d03195269fd82b3b2b7cd929ef627c9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero > h2 {
+    font-size: 19px; color: white; font-weight: bold;
+    position: relative; left: 0; top: 0; height: 550px;
+    
+    max-width: 400px; /* Define el ancho máximo permitido */
+word-wrap: break-word; /* Asegura que las palabras largas se ajusten */
+overflow-wrap: break-word; /* Compatibilidad adicional para ajustar palabras largas */
+line-height: 1.5; /* Define el espacio entre líneas para mayor legibilidad */
+    padding: 2rem;
+    background-image: linear-gradient(to right,
+     rgba(0,0,0,1) 20%,
+     rgba(0,0,0,.7) 60%,
+     rgba(0,0,0,.4) 80%,
+     rgba(0,0,0,0) 100%);
+     
+  }
+  
+  
+
+.footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    background: #111;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
